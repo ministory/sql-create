@@ -1,0 +1,220 @@
+h2.tit-h2 {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.56px;
+    color: #343841;
+}
+.container-fluid {
+    width: 100%;
+    max-width: inherit;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.round-box {
+    margin:15px auto 32px;
+    padding: 48px 40px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+.tit-btn {
+    position: relative;
+}
+.tit-btn h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #343841;
+}
+select {
+	font-size: 15px;
+	color: #666;
+     width:100%;
+     padding-right:25px;
+	padding-left:10px;
+     border:1px solid #ddd;
+     background:url("~/assets/image/icon-chevron-down2.png") no-repeat right 50%;
+	 background-size: auto 16px;
+     border-radius:5px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance : none;
+	height: 46px;
+	box-sizing: border-box;
+}
+select::-ms-expand {
+   display: none;
+}
+select:hover {
+	border-color: #666;
+}
+select:disabled {
+	border-color: #ddd;
+	background-color: #f8f8f8;
+	color: #999;
+}
+.btn-area {
+    padding: 20px 0 0 0;
+}
+.btn {
+    font-size: 15px !important;
+    font-weight: bold !important;
+    padding: 12px 20px !important;
+    line-height: normal !important;
+    height: 46px;
+}
+.btn.btn-outline-dark {
+    color: #222 !important;
+    border-color: #ccc !important;
+    background-color: #fff;
+}
+.btn.btn-outline-dark:hover {
+    color: #3e60e5 !important;
+    background-color: #fff !important;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12);
+}
+.btn.btn-outline-dark.disabled {
+    color: #aaa !important;
+    background-color: #f8f8f8 !important;
+    border-color: #eee !important;
+}
+.btn.btn-outline-dark.disabled:hover {
+    cursor: default;
+    box-shadow:none;
+}
+.btn-lg {
+    min-width: 160px;
+    font-size: 18px !important;
+    padding: 18px 20px !important;
+    box-sizing:border-box;
+    height: 62px;
+}
+.xs-mb {
+    margin-bottom: 0.5rem;
+}
+.group-tit-info {
+	width: 100%;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.group-box .group-box-inner {
+    position:inherit;
+}
+.group-box.d-flex.align-items-center {
+    display: block !important;
+}
+.group-box {
+    border-radius: 8px;
+    border: solid 1px #ced4da;
+}
+.group-box.set {
+    padding: 16px 16px 16px 32px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 500px;
+}
+.group-box.set2 {
+    height: 100%;
+    width: 100%
+}
+.history-list {
+    border: 1px solid rgba(0,0,0,.1);
+    width: 1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 550px;
+}
+.history {
+    font-size: xx-small;
+    margin-top: 20px;
+    margin-right: 10px;
+    color: #6c757d!important;
+    overflow: hidden;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.history:hover {
+    cursor: pointer;
+    color: #212222!important;
+}
+.sql-cont {
+    position: relative;
+}
+.sql-cont:hover > .focus-active {
+    visibility: visible !important;
+}
+.fas {
+    display: inline-block;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% auto;
+}
+.icon-input-del {
+    width: 18px;
+    height: 18px;
+    background-image:url("~/assets/image/input-del.png");
+}
+.icon-input-del:hover {
+    cursor: pointer;
+}
+.focus-active {
+    visibility: hidden !important;
+}
+.focus-active:hover {
+    visibility: hidden !important;
+}
+.input-group-append-twin {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 18px;
+    height: 46px;
+    cursor: pointer;
+}
+.sql {
+    font-size: small;
+}
+.button {
+    background-color: white;
+    border: 1px solid gray;
+    color: gray;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.button:hover {
+    background: #3e60e5; 
+    color: white;
+    border: 1px solid white;
+}
+.button-select {
+    background-color: #3e60e5;
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-copy {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 5px;
+    width: 36px;
+    height: 36px;
+}
+.btn-copy-img {
+    width: 36px;
+    height: 36px;
+}
